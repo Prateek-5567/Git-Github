@@ -32,4 +32,10 @@ use double quotes if there is a space in name else it is optional.
 # OPTION 1 : 2-2 karke merge karlo branches ko:
     1. git branch :  check branches status 
     2. git diff "anotheBranchName" : compare current branch status with anotherBranch status
-    3. 
+    3. git merge "anotherBranchName" : merge current branch with another Branch.
+
+#OPTION 2 : using github :
+    -create a PR : Pull request 
+    -it lets you tell others about changes you have pushed to a branch in repository on github.
+    - after we have done some changes in our main branch we can send pull request to main branch 
+     there some senior developer working on main branch will review your code and accept/reject/give-review.
