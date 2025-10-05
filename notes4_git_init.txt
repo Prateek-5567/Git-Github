@@ -10,4 +10,15 @@ follow these instructions.
     git add . 
     git commit -m "msg"
     git push origin main
+    or git push -u origin main  : now a shorthand is created from now-onwards "git push "hii kaafi rhega and always push to origin main
+
 remote means on github server / website.
+
+mostly this approach is not followed 
+then what ? :-
+    1.create your repo on github with readme file 
+    2.clone that repo : git clone <-link->
+    3.do changes.
+    4. git add .
+    5. git commit -m "msg1"
+    6. git push -u origin <-branchName->

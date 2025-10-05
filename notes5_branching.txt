@@ -1,0 +1,22 @@
+########## GIT BRANCHES ##########
+    YOU might need to work in seprate branches
+    create a copy of current branch into a new branch do changes
+    meanwhile some changes were also done in main branch 
+    later merge all branches into main branch. (HOW?)
+
+# Branch Commands 
+
+1. git branch   :-
+    see all branches in current origin and current branch appears in green
+2. git branch -M newName    :-  
+    (new name works without quote also if there is no space.) (otherwise use quotes.)
+    rename a branch
+3. git checkout -b newBranchName    :-
+    create a new Branch and checkout to that branch
+4. git checkout anotherBranchName   :-
+    switch to another branch
+5. git branch -d branchName     :- 
+    delete that branch you can not delete your current branch (selected one).
+
+
+
