@@ -1,0 +1,41 @@
+########## GIT BRANCHES ##########
+    YOU might need to work in seprate branches
+    create a copy of current branch into a new branch do changes
+    meanwhile some changes were also done in main branch 
+    later merge all branches into main branch. (HOW?)
+
+# Branch Commands 
+
+1. git branch   :-
+    see all branches in current origin and current branch appears in green
+2. git branch -M newName    :-  
+    (new name works without quote also if there is no space.) (otherwise use quotes.)
+    rename a branch
+3. git checkout -b newBranchName    :-
+    create a new Branch and checkout to that branch
+4. git checkout anotherBranchName   :-
+    switch to another branch
+5. git branch -d branchName     :- 
+    delete that branch you can not delete your current branch (selected one).
+
+
+Note : 
+- whenever you create a new branch then at that point a copy of all the content in your main 
+    branch will be made in that new branch.
+- now whatever change you do will only will reflect in newBranch and when you checkout from there 
+    those will become invisible so never checkout without commit.
+
+Note:-
+use double quotes if there is a space in name else it is optional.
+
+# MERGE CODE FROM VARIOUS BRANCHES.
+# OPTION 1 : 2-2 karke merge karlo branches ko:
+    1. git branch :  check branches status 
+    2. git diff "anotheBranchName" : compare current branch status with anotherBranch status
+    3. git merge "anotherBranchName" : merge current branch with another Branch.
+
+#OPTION 2 : using github :
+    -create a PR : Pull request 
+    -it lets you tell others about changes you have pushed to a branch in repository on github.
+    - after we have done some changes in our main branch we can send pull request to main branch 
+     there some senior developer working on main branch will review your code and accept/reject/give-review.
