@@ -1,0 +1,7 @@
+    MERGE CONFLICTS
+
+an event that takes place which git is unable to automatically resolve diffrences in codes between two commits
+eg : branch1 : modified some lines in index.html
+     branch2: modified same lines in index.html i.e same files
+     now which code to consider is a conflict.
+
