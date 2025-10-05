@@ -5,3 +5,6 @@ eg : branch1 : modified some lines in index.html
      branch2: modified same lines in index.html i.e same files
      now which code to consider is a conflict.
 
+     git merge "branchName"
+     conflict will be raised in common files : you will have to manualy select which Branch's changes you want to select.
+
