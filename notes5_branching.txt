@@ -37,5 +37,24 @@ use double quotes if there is a space in name else it is optional.
 #OPTION 2 : using github :
     -create a PR : Pull request 
     -it lets you tell others about changes you have pushed to a branch in repository on github.
-    - after we have done some changes in our main branch we can send pull request to main branch 
+    - after we have done some changes in our main branch we can send pull request to main branch using github
      there some senior developer working on main branch will review your code and accept/reject/give-review.
+
+// DO THIS IF YOU RENAME ANY BRANCH IN GITHUB 
+
+# The default branch has been renamed!
+  newBranch is now named main
+
+  If you have a local clone, you can update it by running the following commands.
+
+    git branch -m newBranch main
+    git fetch origin
+    git branch -u origin/main main
+    git remote set-head origin -a
+
+# ALTERNATE BETTER OPTION : 
+    git pull origin main    :  lets assume your final branch is main which is updated on github server after
+     a merge; Now you want that changes to be reflected in your local device also. Just download changes from github using this.
+
+# altername : 
+    remove git clone from you local and again clone it.
