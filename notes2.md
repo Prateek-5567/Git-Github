@@ -31,3 +31,5 @@ after staging files are ready to be commited.
 here 'origin' : means jaha se hamne repo ko clone kia tha i.e the origin of our repo.
 'main' : it is origin in origin of our repo we can create more branches also.
 
+<git log>
+The git log command is used to display the commit history of a Git repository, showing a list of all commits made in reverse chronological order, starting with the most recent one
