@@ -19,4 +19,17 @@
     delete that branch you can not delete your current branch (selected one).
 
 
+Note : 
+- whenever you create a new branch then at that point a copy of all the content in your main 
+    branch will be made in that new branch.
+- now whatever change you do will only will reflect in newBranch and when you checkout from there 
+    those will become invisible so never checkout without commit.
 
+Note:-
+use double quotes if there is a space in name else it is optional.
+
+# MERGE CODE FROM VARIOUS BRANCHES.
+# OPTION 1 : 2-2 karke merge karlo branches ko:
+    1. git branch :  check branches status 
+    2. git diff "anotheBranchName" : compare current branch status with anotherBranch status
+    3. 
