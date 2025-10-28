@@ -1,2 +1,2 @@
-# Focus on notes1 to notes5 
+# Focus on files with notes in their prefix of name.
 -> other files were needed to revise commands may ignore them initially...
