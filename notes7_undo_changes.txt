@@ -1,0 +1,32 @@
+ ## Undoing some types of changes :-
+
+1. Staged Changes : undo `git add` command.
+    a. git reset <fileName>  := (one by one ; used if limited files)
+    b. git reset             := (Unstage all files that are staged currently)
+
+2. Commited Changes : undo `git commit -m "falana"
+    `git reset HEAD~1`       : uncommit but those updates will not be removed from you local code. (SOFT RESET)
+    this means reset the git HEAD to 1 step back ;
+    there is a HEAD (internal Linked List) on previous commit : take it one step back.
+    `git reset --HARD HEAD~1`  : uncommit bhi hoga editor se vo sara code bhi remove ho jayega and take back to previous checkpoint code.
+
+3. Uncommit changes for many commit :
+    you need to know the hash code of the commit to which you wanna go back to.
+    `git log` gives the details of all commits (history). and there you see hashcode for every commit
+    use :=> `git reset "hashcode" `   
+    if you want to remove the code from your files and go back to that commited code use HARD reset
+    `git reset --HARD "hashcode" `
+
+
+# FORK #
+fork is a new repository that shares code and visibility settings with the original "upstream"
+fork is a rough copy of a project on github.
+
+if you tick on copy the main branch only : only the main branch will be copied (single branch).
+else entire project will be copied.
+
+now you can do you changes whatever .....
+
+now create a pull request in this case when you will create a pull request from main branch of that forked project
+a pull request from your copied/forked main branch of that project to the original base branch of admins github will be send.
+if accepted it is counted as open source contribution.
