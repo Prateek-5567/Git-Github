@@ -14,8 +14,8 @@ follow these instructions.
 
 remote means on github server / website.
 
-mostly this approach is not followed 
-then what ? :-
+
+2nd approach : create completely new project (no provious code - its a new start)
     1.create your repo on github with readme file 
     2.clone that repo : git clone <-link->
     3.do changes.
